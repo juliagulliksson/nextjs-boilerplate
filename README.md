@@ -1,0 +1,1 @@
+**A boilerplate with next.js, typescript and material ui, to quickly start up a project**

@@ -1,0 +1,49 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "1.0.0",
+  "description": "a boilerplate project for next.js, typescript and material ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "eslint src --ext .js,.ts,.tsx,.test --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliagulliksson/nextjs-boilerplate.git"
+  },
+  "author": "julia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliagulliksson/nextjs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/juliagulliksson/nextjs-boilerplate#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  }
+}
