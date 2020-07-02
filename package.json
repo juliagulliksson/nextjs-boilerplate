@@ -8,6 +8,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint src --ext .js,.ts,.tsx,.test --quiet --fix",
+    "lint:fix": "npm run lint",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -48,6 +49,16 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.6",
+    "lint-staged": "^10.2.10",
+    "husky": "^4.2.5"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,tsx}": "npm run lint:fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
